@@ -1,0 +1,221 @@
+/* =====================global======================= */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --main-color:#212121;
+    --secondary-color: #757575;
+    --corporate-color: #2196F3;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.name-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--main-color);
+}
+
+/* =====================index.html======================= */
+
+.header {
+    background: #FFFFFF;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--corporate-color);
+}
+
+.logo-header-part {
+    color: #000000;
+}
+
+.logo-footer-part {
+    color: #FFFFFF;
+}
+
+.navigations {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;   
+    color: var(--main-color);
+}
+
+.navigations:hover,
+.navigations:focus {
+    color: var(--corporate-color);
+}
+
+.contacts-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+.contacts-header:hover,
+.contacts-header:focus {
+    color: var(--corporate-color);
+}
+
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    width: 200px;
+    height: 50px;
+    background: var(--corporate-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;    
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.benefits {
+    background: #FFFFFF;
+}
+
+.benefits-tetle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.benefits-descriptions {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color)
+}
+
+.occupation {
+    background: #FFFFFF;
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-employee-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;    
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.team-position-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+.contacts-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-footer:hover,
+.contacts-footer:focus {
+    color: #FFFFFF;
+}
+
+.footer {
+    background: #2F303A;
+}
+
+
+/* =====================portfolio.html======================= */
+
+
+.section-portfolio-navigations {
+    background: #FFFFFF;
+}
+
+.portfolio-navigations {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.portfolio-navigations:hover,
+.portfolio-navigations:focus {
+    color: #FFFFFF;
+    background: var(--corporate-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.section-portfolio-item {
+    background: #FFFFFF;
+}
+
+.section-portfolio-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;    
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.section-portfolio-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color:var(--secondary-color);
+}
